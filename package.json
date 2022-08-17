@@ -1,0 +1,26 @@
+{
+  "name": "rchat",
+  "version": "0.0.1",
+  "description": "Monorepo for message chat app",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "dev:server": "pnpm -r --filter \"@rchat/server\" --parallel run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dave136/rchat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dave136/rchat/issues"
+  },
+  "homepage": "https://github.com/Dave136/rchat#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
